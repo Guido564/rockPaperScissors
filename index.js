@@ -8,7 +8,7 @@ let computadoraScore = 0;
 
 function puntuacion(ganador, score){
     if (jugadorScore > 5 || computadoraScore > 5) {
-        alert(`El ganador de este super torneo es el ${ganador.id}! Para volver a jugar presione Ok`);
+        alert(`El ganador de este super torneo es el ${ganador.id}! Para volver a jugar presione Aceptar`);
         jugadorScore = 0;
         computadoraScore = 0;
         jugadorSpan.textContent = '-';

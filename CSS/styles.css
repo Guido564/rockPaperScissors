@@ -49,6 +49,12 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    opacity: 0.6;
+    height: 55px;
+    width: 80px;
+}
+
 .puntajes {
     display: flex;
     width: 100%;
