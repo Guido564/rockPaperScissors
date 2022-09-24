@@ -1,6 +1,7 @@
 body {
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
+    background-color: #333;
 }
 
 .container {
@@ -46,4 +47,13 @@ button {
     border: 3px solid black;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.puntajes {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #3D0000;
 }
